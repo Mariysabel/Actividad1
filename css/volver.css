@@ -1,0 +1,14 @@
+.btn-volver {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #ff24d7, #9725f4);
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 15px;
+    padding: 15px;
+    font-family: arial;
+}
+
+.btn-volver:hover {
+    color: rgb(255, 182, 226);
+}

@@ -1,0 +1,57 @@
+* {
+    background-color: white;
+
+}
+
+.link-ejercicio {
+    background-image: linear-gradient(to right, #ff24d7, #9725f4);
+    width: 20%;
+    height: 100px;
+    margin: 8px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    border-radius: 20px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+a {
+    background-color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(128, 0, 255);
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+a:hover {
+    color: rgba(253, 79, 253, 0.752);
+}
+
+p{
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(68, 6, 169);
+}
+
+h1{
+    text-align: center;
+    font-family: arial;
+    font-size: 50px;
+    color: rgb(68, 6, 169);
+}
+

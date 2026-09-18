@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16 - Calculadora</title>
+    <link rel="stylesheet" href="css/ejercicio16.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Calculadora</h1>
+
+        <label for="numero1">Primer número:</label>
+        <input type="text" id="numero1" placeholder="Ingresa un número">
+
+        <label for="numero2">Segundo número:</label>
+        <input type="text" id="numero2" placeholder="Ingresa un número">
+
+        <div class="botones">
+
+            <button onclick="calcularOperacion('suma')">
+                Sumar
+            </button>
+
+            <button onclick="calcularOperacion('resta')">
+                Restar
+            </button>
+
+            <button onclick="calcularOperacion('multiplicacion')">
+                Multiplicar
+            </button>
+
+            <button onclick="calcularOperacion('division')">
+                Dividir
+            </button>
+
+        </div>
+
+        <label for="resultado">Resultado:</label>
+        <input type="text" id="resultado" readonly>
+
+    </div>
+
+    <script src="js/ejercicio16.js"></script>
+
+</body>
+</html>
